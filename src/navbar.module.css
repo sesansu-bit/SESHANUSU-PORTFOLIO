@@ -28,10 +28,22 @@ height: 70px;
     border-radius: 50px;
 box-shadow: 0 0 5px rgba(90, 203, 255, 0.752),0 0 5px rgba(90, 203, 255, 0.752); 
    align-items: center;
-    background: url('final.jpg') center center/cover;
     margin-top: 4.8vh
+
+}
+.backimage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50px;
 }
 
+.backimage img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.7s;
+}
 .portfoliocover {
     height: 70px;
     display: flex;

@@ -9,6 +9,8 @@ const Navbar = () => {
   return (
     <>
       <div className={styles["navcoverback"]}>
+               <div className={styles["backimage"]}> <img  src="final.jpg"/></div>
+        
         <div className={styles["navcover"]}>
           <div className={styles["portfoliocover"]}>
             <p className={styles["portfolio"]}> Portfolio .</p>
