@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutcontainer{
+    height: auto;
+        width: 100vw;
+position: relative;
+z-index: 1;
+display: flex;
+justify-content: center;
+padding-top: 10%;
+background-color: rgb(3, 3, 26);
+overflow: hidden;
+}
+.abouttextcover{
+    position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+}
+.aboutcover {
+    height: 69px;
+    width: 13rem;
+    display: flex;
+    border-radius: 10px;
+}
+
+.leftline {
+    height: 73px;
+    width: 0.3rem;
+    border-left: 5px solid rgb(212, 0, 141);
+}
+
+.about {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    cursor: pointer;
+    display: flex;
+    height: 73px;
+    width:100%;
+    align-items: center;
+    padding-left: 2rem;
+    background: linear-gradient(90deg, rgba(212, 0, 141, 0.293) 0%, rgba(218, 36, 157, 0.375) 0%, rgba(233, 126, 197, 0.123) 47%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+.homepagecover {
+    height: 360px;
+    width: 800px;
+    display: flex;
+    margin-top: 10rem;
+        left: 20%;
+        margin-bottom: 10rem;
+        transform: translate(-50%, -50%);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.homeleft {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.backimage{
+    height: 100%;
+        width: 100%;
+        overflow: hidden;
+        border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+}
+.backimage img {
+    height: 100%;
+    width: 100%;
+transition: all 0.7s;
+}
+.homepagecover:hover .backimage img{
+transform: scale(1.5);
+}
+.aboutcontent {
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.775);
+    backdrop-filter: blur(1px);
+    padding:3rem 1.5rem 1rem 3rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top:0;
+    border-right:3px solid rgb(212, 0, 141);
+    border-bottom:3px solid rgb(212, 0, 141);
+    
+}
+
+.homeright {
+    height: 100%;
+    width: 70%;
+    border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+.rightcard {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.rightcard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+}
+
+
+@media (max-width: 1299px) {
+    .homepagecover {
+            width: 70%;
+                left: 15%;
+            margin-top: 8rem;
+    }
+}
+@media (max-width: 1079px) {
+    .homepagecover {
+        width: 80%;
+        left: 10%;
+    }
+}
+@media (max-width: 937px) {
+    .homepagecover {
+        width: 95%;
+        left: 2%;
+        top: 10%;
+    }
+        .aboutcontent {
+            padding-top: 2rem;
+            font-size: large;
+        }
+}
+@media (max-width: 776px) {
+    .aboutcontent {
+        padding-top: 1.5rem;
+            padding-left: 1.5rem;
+           font-size: medium;
+        }
+}
+@media (max-width: 630px) {
+    .aboutcontent {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        font-size: small;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .aboutcontent {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        font-size: 0.57rem;
+    }
+
+     
+    
+    
+    .leftline {
+            height: 53px;
+            width: 0.3rem;
+            margin-left: 2rem;
+            border-left: 5px solid rgba(87, 202, 255, 0.752);
+        }
+    
+        .about {
+            font-size: 1rem;
+            color: rgb(255, 255, 255);
+            height: 53px;           
+        }
+
+
+ .homepagecover {
+    height: 250px;
+    width: 95%;
+    margin-top: 8rem;
+     left: 20%;
+     margin-bottom: 6rem;
+    transform: translate(-50%, -50%);
+     border-radius: 10px;
+     transition: all 0.5s ease-in-out;   
+        }
+
+.about{
+    background: linear-gradient(90deg, rgba(2, 130, 189, 0.367) 0%, rgba(2, 130, 189, 0.264)0%, rgba(114, 179, 210, 0.16) 47%, rgba(255, 255, 255, 0) 100%);
+}
+}

@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homepagecover {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    padding-top: 8rem;
+    color:white;
+    position: relative;
+    z-index: 1;
+}
+.homepagecover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('final.jpg') center center/contain;
+    z-index: -1;
+    }
+ .homeleftbefore{
+    z-index: 1;
+    height: auto;  
+      background-color: rgb(3, 3, 26);
+        width: 100%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 10rem;
+
+        }
+.homeleft {
+    height:500px;
+    width:510px;
+display: flex; 
+margin-top: 2rem;
+margin-left: 1rem;
+}
+.leftstyle{
+    margin-top: 2.5rem;
+}
+
+.round {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: rgb(212, 0, 141);
+}
+
+.line {
+    height: 30rem;
+    margin-left: 5px;
+    width: 1.5px;
+    background: linear-gradient(180deg, #ffffff 9%, #ffffff 20%, #ffffff 32%, #ffffff 45%, #ffffff 46%, rgba(0, 0, 0, 1) 86%);
+}
+
+
+
+.lefttext {
+    height: 80%;
+    width: 90%;
+    padding-top: 1rem;
+    color: #fff7f3;
+    margin-top: 3rem;
+    margin-left: 1.2rem;
+}
+
+
+
+
+
+
+
+.hello {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.3rem;
+    margin-top: -0.6rem;
+    background-color: transparent;
+    margin-bottom: 0.7rem;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+    color: transparent;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 59%, rgb(212, 0, 141) 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: -1rem;
+    margin-bottom: 0.5rem;
+}
+
+.text1 {
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -0.2rem;
+}
+
+.frontend {
+    font-weight: 700;
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 59%, rgb(212, 0, 141) 60%);
+    background-clip: text;
+    font-size: small;
+    margin-bottom: 0.35rem;
+}
+
+
+.contactcover {
+    height: 5pm;
+    width: 250px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatsapp {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+  
+    box-shadow: inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.whatsappicon {
+    transform: scale(1.5);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    border-radius: 25%;
+    padding-top: -1rem;
+    animation: fadeIn 2s infinite;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.whatsappicon:hover {
+    transform: scale(1.7);
+}
+
+.instagram {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgb(255, 255, 255);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.instagramicon {
+    transform: scale(1.5);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    border-radius: 40%;
+    animation: fadeIn 2s infinite;
+}
+
+.instagramicon:hover {
+    transform: scale(1.7);
+}
+
+.facebook {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 9px rgb(212, 0, 141), inset 0 0 9px rgb(212, 0, 141), inset 0 0 9px rgb(255, 255, 255);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.facebookicon {
+    transform: scale(1.5);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    border-radius: 40%;
+    animation: fadeIn 2s infinite;
+}
+
+.facebookicon:hover {
+    transform: scale(1.7);
+}
+
+.twitter {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    box-shadow: inset 0 0 9px rgb(212, 0, 141), inset 0 0 9px rgb(212, 0, 141), inset 0 0 9px rgb(255, 255, 255);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.twittericon {
+    transform: scale(1.5);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    transition: all 0.1s;
+    border-radius: 25%;
+    animation: fadeIn 2s infinite;
+}
+
+.twittericon:hover {
+    transform: scale(1.7);
+
+}
+
+.contactmecover {
+    height: 3rem;
+    width: 120px;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    margin-top: 1.3rem;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contactmecover::before {
+    content: "";
+    position: absolute;
+    height: 8rem;
+    width: 8rem;
+    background-image: conic-gradient(transparent, rgb(212, 0, 141), rgb(255, 255, 255));
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.contactme {
+    height: 2.85rem;
+    width: 117.5px;
+    position: absolute;
+    border-radius: 30px;
+    display: flex;
+ justify-content: center;
+     align-items: center;
+    margin-top: 0rem;
+    z-index: 3;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(6, 31, 43);
+    font-weight: 600;
+    backdrop-filter: blur(40px);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.contactme:hover {
+    background-color: #000f00;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+
+.homeright {
+    height: 90%;
+        width: 40%;
+        margin-top: 2rem;
+}
+.rightcard {
+    height: 410px;
+    width: 360px;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+    overflow: hidden;
+    box-shadow: 5px 6px 5px rgb(212, 0, 141), 5px 5px 5px rgb(212, 0, 141);
+}
+
+.rightcard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+}
+.rightcard img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 931px) {
+    .homeleft {
+     width: 47%;  
+}
+}
+@media (max-width: 862px) {
+    .homeleft {
+        width: 75%;
+        margin-bottom: 2rem;
+    }
+        .homeright {
+            height: 100%;
+            width: 80%;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        .rightcard {
+            height: 600px;
+            width: 88%;
+            
+        }
+         .homeleftbefore {
+                    flex-direction: column;
+                    align-items: center;
+                }
+}
+
+@media (max-width: 589px) {
+    .homeleft {
+            width: 75%;
+            margin-bottom: 2rem;
+        }
+    
+        .homeright {
+            height: 100%;
+            width: 85%;
+            margin-top: 2rem;
+            display: flex;
+            margin-left: 2rem;
+            justify-content: center;
+        }
+    
+        .rightcard {
+            height: 600px;
+            width: 98%;
+    
+        }
+    
+        .homeleftbefore {
+            flex-direction: column;
+            align-items: center;
+        }
+}
+
+@media (max-width: 500px) {
+    .homepagecover::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: url('final.jpg') center center/contain;
+            z-index: -1;   }
+    
+                        .homepagecover {
+                            padding-top: 5rem;
+                            background-color: rgb(6, 103, 124);
+                                     }
+ .homeleftbefore {
+    background-color: rgb(0, 0, 0);
+ }
+
+
+ .contactme {
+     height: 2.55rem;
+     width: 116px;
+     margin-top: 0.3rem;
+     color: rgb(212, 0, 141);
+ }
+ .leftstyle {
+display:none 
+}
+ .homeright {
+     height: 50%;
+     width: 95%;
+     margin-top: 0rem;
+     display: flex;
+     margin-left: 2rem;
+     padding-top: 0;
+     justify-content: center;
+ }
+
+ .rightcard {
+     height: 430px;
+     width: 98%;
+margin-bottom: 0rem;
+ }
+ .homeleft {
+     height: 500px;
+     width: 510px;
+     margin-top: 0rem;
+    width: 100%;
+        margin-bottom: 0rem;
+        display: flex;
+        justify-content: center;
+ }
+ .lefttext {
+     height: 80%;
+     width: 85%;
+     padding-top: 0rem;
+     color: #fff7f3;
+     margin-top: 2rem;
+     margin-left: -1rem;
+ }
+ .hello {
+     font-size: 1.9rem;
+     margin-bottom: 1.2rem;
+ }
+ .name {
+     font-size: 1.8rem;
+     margin-bottom: 0.6rem;
+     font-family: 'Times New Roman', Times, serif;
+            color: transparent;
+            cursor: pointer;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 1) 59%, rgba(6, 176, 255, 0.752) 60%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            margin-top: -1rem;
+        
+ }
+ .text1 {
+     width: 100%;
+     font-family: 'Times New Roman', Times, serif;
+     margin-top: -0.2rem;
+     font-size: 0.8rem;
+    color: rgba(254, 255, 255, 0.752);
+ }
+ .frontend {
+     font-size: 0.7rem;
+     margin-bottom: 0.45rem;
+    color: transparent;
+        cursor: pointer;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 1) 59%, rgba(6, 176, 255, 0.752) 60%);
+        background-clip: text;
+        -webkit-background-clip: text;
+ }
+ .contactcover {
+     height: 45px;
+     width: 250px;
+     margin-top: 1rem;
+    
+ }
+ .facebookicon {
+    color: rgb(212, 0, 141);  
+ }
+ .instagramicon {
+    color: rgb(212, 0, 141);
+     }
+ .whatsappicon {
+color: rgb(212, 0, 141);
+  }
+  .twittericon {
+    color: rgb(212, 0, 141);
+  }
+ .whatsapp {
+     height: 2.7rem;
+    color: rgb(212, 0, 141);
+     width: 2.7rem;
+    box-shadow: inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgb(255, 255, 255);    }
+ .instagram {
+    height: 2.7rem;
+    width: 2.7rem;
+    box-shadow: inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgb(255, 255, 255);
+    }
+ }
+ .facebook {
+    height: 2.7rem;
+    width: 2.7rem; 
+    box-shadow: inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgb(255, 255, 255);
+ }
+ .twitter {
+    height: 2.7rem;
+    width: 2.7rem;
+    box-shadow: inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgba(6, 176, 255, 0.752), inset 0 0 9px rgb(255, 255, 255);
+    
+ }
+
+ .contactmecover::before {
+     content: "";
+     position: absolute;
+     height: 8rem;
+     width: 8rem;
+     background-image: conic-gradient(transparent,  rgba(6, 176, 255, 0.752), rgb(255, 255, 255));
+     animation: animate 2s linear infinite;
+ }
+ .contactmecover {
+     height: 2.7rem;
+     width: 120px;
+ }
+ .contactme {
+     height: 2.5rem;
+     width: 116px;
+   color: rgb(212, 0, 141);
+}
+
