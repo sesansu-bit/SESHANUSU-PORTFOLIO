@@ -2,7 +2,6 @@ import styles from "./hero.module.css";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { LuFacebook } from "react-icons/lu";
-import { motion } from "framer-motion";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
