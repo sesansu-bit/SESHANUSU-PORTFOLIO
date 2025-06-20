@@ -13,8 +13,7 @@ return(
 
     <div className={styles["homeleftbefore"]}>
     <div
-         
-  
+
           className={styles["homeleft"]}>
            <div className={styles["leftstyle"]}> 
                   <div className={styles["round"]}> </div>
