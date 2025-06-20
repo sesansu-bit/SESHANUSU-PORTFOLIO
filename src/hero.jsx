@@ -10,10 +10,12 @@ const Hero = () => {
 return(
     <>
     <div className={styles["homepagecover"]}>
-       <div className={styles["backimage"]}> <img  src="final.jpg"/>    </div>
 
     <div className={styles["homeleftbefore"]}>
-    <div  className={styles["homeleft"]}>
+    <div
+         
+  
+          className={styles["homeleft"]}>
            <div className={styles["leftstyle"]}> 
                   <div className={styles["round"]}> </div>
                   <div className={styles["line"]}> </div>

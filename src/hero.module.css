@@ -14,26 +14,14 @@
     z-index: 1;
 }
 
-.backimage {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 
-.backimage img {
-    height: 100%;
-    width: 100%;
-    transition: all 0.7s;
-}
 .homepagecover::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: url('final.jpg') center center/cover;
-    z-index: -1;
-}
+    background: url('/final.jpg') center center/contain;
+        z-index: -1;
+    }
  .homeleftbefore{
     z-index: 1;
     height: auto;  
