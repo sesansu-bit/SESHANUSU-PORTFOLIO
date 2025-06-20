@@ -366,12 +366,7 @@ margin-left: 1rem;
 }
 
 @media (max-width: 500px) {
-    .homepagecover::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: url('final.jpg') center center/contain;
-            z-index: -1;   }
+    
     
                         .homepagecover {
                             padding-top: 5rem;
