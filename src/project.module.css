@@ -211,7 +211,6 @@ top: 50%;
             height: 53px;
             width: 0.3rem;
             margin-left: 2rem;
-            border-left: 5px solid rgba(87, 202, 255, 0.752);
         }
     
         .about {
@@ -219,9 +218,7 @@ top: 50%;
             color: rgb(255, 255, 255);
             height: 53px;
         }
-     .about {
-         background: linear-gradient(90deg, rgba(2, 130, 189, 0.367) 0%, rgba(2, 130, 189, 0.264)0%, rgba(114, 179, 210, 0.16) 47%, rgba(255, 255, 255, 0) 100%);
-        }
+   
 
 
 
