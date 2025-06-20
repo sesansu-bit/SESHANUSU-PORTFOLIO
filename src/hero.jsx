@@ -10,6 +10,7 @@ const Hero = () => {
 return(
     <>
     <div className={styles["homepagecover"]}>
+       <div className={styles["backimage"]}> <img  src="final.jpg"/>    </div>
 
     <div className={styles["homeleftbefore"]}>
     <div  className={styles["homeleft"]}>

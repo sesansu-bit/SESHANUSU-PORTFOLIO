@@ -57,7 +57,9 @@ const About = () =>{
            </div>
            
 
- <div className={styles["skillboxcontainer"]}>
+       <div className={styles["skillboxcontainer"]}>
+       <div className={styles["backimage"]}> <img  src="final.jpg"/>    </div>
+
          <div className={styles["skillbox"]}>
            
  {skillsData.map((skill, index) => (
