@@ -46,7 +46,7 @@ height: 82px;
     justify-content: center;
     padding-left: 1rem;    
     transition: all 0.2s;
-border:1px solid white;
+    border:none;
 }
 
 p {
