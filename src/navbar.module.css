@@ -1,17 +1,14 @@
 .navcover {
     top: 0;
     left: 0;
-    height: 70px;
-    width: 96.2vw;
+    height: 82px;
+    width: 100vw;
     display: flex;
     position: fixed;
     z-index: 9;
-    margin-left: 2vw;
-    border-radius: 50px;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(20, 0, 56, 0.389);
     backdrop-filter: blur(10px);
-    margin-top: 4.8vh;
     transition: all 0.2s;
 }
 .sideicon {
@@ -19,16 +16,13 @@
 }
 .navcoverback{
 position: relative;
-height: 70px;
-    width: 96vw;
+height: 82px;
+    width: 100vw;
     display: flex;
     position: fixed;
     z-index: 6;
-    margin-left: 2vw;
-    border-radius: 50px;
-box-shadow: 0 0 5px rgba(90, 203, 255, 0.752),0 0 5px rgba(90, 203, 255, 0.752); 
+    overflow: hidden;
    align-items: center;
-    margin-top: 4.8vh
 
 }
 .backimage {
@@ -36,6 +30,7 @@ box-shadow: 0 0 5px rgba(90, 203, 255, 0.752),0 0 5px rgba(90, 203, 255, 0.752);
     width: 100%;
     position: absolute;
     overflow: hidden;
+    transform: scale(1.15);
     border-radius: 50px;
 }
 
@@ -45,19 +40,17 @@ box-shadow: 0 0 5px rgba(90, 203, 255, 0.752),0 0 5px rgba(90, 203, 255, 0.752);
     transition: all 0.7s;
 }
 .portfoliocover {
-    height: 70px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 1rem;
-    border-radius: 50px;
-    border: 2px solid rgba(90, 203, 255, 0.752);
+    padding-left: 1rem;    
     transition: all 0.2s;
-    background-color: rgb(3, 3, 26);
+
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-left: 0.9rem;
     width: 9rem;
     font-weight: 700;
@@ -223,12 +216,11 @@ text-decoration: none;
 
 .sideitem{
     height: 10rem;
-        width: 86vw;
+        width: 100vw;
         border: 0.5px solid rgb(0, 208, 255);
            position: fixed;
            border-top: none;
-    margin-top: 7rem;
-    margin-left: 7vw;
+    margin-top: 5rem;
     z-index: 2;
         border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -258,8 +250,9 @@ color: rgb(255, 255, 255);
 @media (max-width: 500px) {
     .navcover {
             height: 45px;
-            margin-top: 3vh;
             width: 94vw;
+            height: 82px;
+                width: 100vw;
         }
                
         .sideicon {
@@ -287,23 +280,9 @@ transition: all 0.4s ease-in-out;
        color: rgb(255, 255, 255);
        transform: scale(1);
    }
-        p {
-            font-size: 1rem;
-            margin-left: 0.9rem;
-            width: 6.5rem;
-            }
-                        .sideitem {
-                            font-size: 1rem;
-                            height: 10rem;
-                            width: 86vw;
-                            margin-top: 4rem;
-                            transition: all 1s ease-in-out;     
-                              }
+      
  .item {
     font-size: 0.7rem;
 }
-.portfoliocover {
-    border: 0.9px solid rgba(90, 203, 255, 0.752);
-    background-color: rgb(0, 0, 0);
-}
+
 }
