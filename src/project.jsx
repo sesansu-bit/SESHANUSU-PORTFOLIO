@@ -4,26 +4,31 @@ const  Project = () =>{
         {
           number: "01",
           title: "SHOPPING UI (REACT-REDUX)",
+          link:"https://frontend-shopp.onrender.com/",
           description: "Developed a more advanced version of the shopping app using React-redux . clean component structure, Enhanced user experience with dynamic cart updates and seamless state synchronization.",
         },
         {
           number: "02",
           title: "SOCIALMEDIA CLONE(REACT)",
+          link:"https://github.com/sesansu-bit?tab=repositories",
           description: "Developed an Instagram clone using React to replicate the social media platform’s core features.Implemented double-tap like animations, story navigation, and responsive design for a real-time social experience.",
         },
         {
           number: "03",
           title: "SHOPPING UI (JAVASCRIPT)",
+          link:"https://github.com/sesansu-bit?tab=repositories",
           description: "Created a shopping website from scratch using JavaScript to manage product listings, cart functionality, and checkout processes and interactive cart updates for a smooth shopping experience.",
         },
         {
           number: "04",
           title: "PORTFOLIO WEBSITE(REACT)",
+          link:"https://seshanusu-portfolio.vercel.app/",
           description: "Created a personal portfolio website using React to showcase design and development skills.Integrated smooth animations and modern UI aesthetics to reflect personal creativity and professionalism.",
         },
         {
           number: "05",
           title: "BARBER SHOP (REACT)",
+          link:"https://alpha-barber-shop.vercel.app/",
           description: "Designed and developed a responsive UI for a barber shop website using React to demonstrate frontend design proficiency.service-focused design to offer a realistic business-oriented frontend experience.",
         }
       ];
@@ -49,7 +54,7 @@ const  Project = () =>{
       <div className={styles["project-number"]}>{project.number}</div>
       <p className={styles["project-title"]}>{project.title}</p>
       <p className={styles["project-description"]}>{project.description}</p>
-      <a href="https://github.com/sesansu-bit?tab=repositories" className={styles["github"]}>Github</a>     </div>
+      <a href="https://github.com/sesansu-bit?tab=repositories" className={styles["github"]}>LINK</a>     </div>
   </div>
 ))}
    
