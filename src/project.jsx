@@ -54,7 +54,7 @@ const  Project = () =>{
       <div className={styles["project-number"]}>{project.number}</div>
       <p className={styles["project-title"]}>{project.title}</p>
       <p className={styles["project-description"]}>{project.description}</p>
-      <a href="https://github.com/sesansu-bit?tab=repositories" className={styles["github"]}>LINK</a>     </div>
+      <a href={project.link} className={styles["github"]}>LINK</a>     </div>
   </div>
 ))}
    
